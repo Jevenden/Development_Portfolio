@@ -36,4 +36,4 @@ Github Repo for this application: https://github.com/Jevenden/sandbox
 
 Deployment link: http://localhost:3000/react-portfolio#home
 
-![Screenshot](sandbox\src\docs\2022-09-28 (1).png)
+![2022-09-28 (1)](https://user-images.githubusercontent.com/102879070/192926261-d8115737-dd42-4631-a092-7bcc3b43cc19.png)
