@@ -1,0 +1,19 @@
+.title {
+    color: white;
+}
+
+.selfie {
+    border-radius: 50%;
+    height: 300px
+}
+
+.about {
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 5%;
+    color: white;
+}
+
+.info {
+    -webkit-text-stroke: 0.1px white
+}

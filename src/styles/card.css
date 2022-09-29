@@ -1,0 +1,45 @@
+.card {
+  border-radius: 5px;
+  height: 425px;
+  margin: 2rem;
+  position: relative;
+  width: 400px;
+  box-shadow: 0 4px 8px 0 black;
+}
+
+.img-container img {
+  width: 100%;
+  padding: 10px;
+  height: 195px;
+}
+
+.content {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.topics {
+  font-size: small;
+  font-style: italic;
+}
+
+.card:hover {
+  transform: scale(1.2); 
+}
+
+.desc {
+  font-size: small;
+  margin: 3%
+}
+
+.desc {
+  font-size: x-small;
+  padding: 0%;
+  margin-top: 0%;
+}
+
+.icons {
+  margin: 0%;
+  padding: 0%;
+}

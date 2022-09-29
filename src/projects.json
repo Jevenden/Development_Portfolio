@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Event-Finder",
+    "desc": "Search for an event by location, genre, and date, then get info about everything from tickets to the best route.",
+    "image": "https://user-images.githubusercontent.com/70594281/174419344-26644f83-8f0c-4395-9b49-65ef8950d945.png",
+    "github": "https://github.com/MMMPhoto/Event-Finder",
+    "deploy": "https://mmmphoto.github.io/Event-Finder/",
+    "topics": "HTML, Javascript, CSS, 3rd party API"
+  },
+  {
+    "id": 2,
+    "name": "Smash.ME",
+    "desc": "Create an esports profile and record your results to make a name for yourself on the esports scene.",
+    "image": "https://raw.githubusercontent.com/gabeab34/Smash.ME/main/Screenshot.png",
+    "github": "https://github.com/gabeab34/Smash.ME",
+    "deploy": "https://supersmashme.herokuapp.com/",
+    "topics": "HTML, Javascript, CSS, Handlebars, Sequelize"
+  },
+  {
+    "id": 3,
+    "name": "Employee-Tracker",
+    "desc": "Use a command-line interface to organize, record, and modify a company's employee database.",
+    "image": "https://user-images.githubusercontent.com/102879070/182046925-3b48f788-ada7-46e0-9544-45fee52f1cf7.png",
+    "github": "https://github.com/Jevenden/Employee-Tracker",
+    "deploy": "https://drive.google.com/file/d/1YaQgC_5IE2Faj-dMK_q71j6CmsFe_pTc/view",
+    "topics": "node.js, inquirer, console.table, mysql2"
+  },
+  {
+    "id": 4,
+    "name": "Weather-Tracker",
+    "desc": "Search, save, and recall weather information by location, including temp, wind, humidity, and UV index.",
+    "image": "https://user-images.githubusercontent.com/102879070/173206795-1756b534-81cb-41fe-a26f-bf9e9cd7594d.jpg",
+    "github": "https://github.com/Jevenden/Weather-Tracker-Challenge",
+    "deploy": "https://jevenden.github.io/Weather-Tracker-Challenge/",
+    "topics": "REST API, Javascript, CSS, HTML"
+  },
+  {
+    "id": 5,
+    "name": "Social Network API",
+    "desc": "A social media back-end which allows users to create a profile, add friends, make comments, and reply.",
+    "image": "https://user-images.githubusercontent.com/102879070/190270220-8d811dca-b77e-48e1-8c19-5b219bed035d.png",
+    "github": "https://github.com/Jevenden/Social-Network-API",
+    "deploy": "https://drive.google.com/file/d/1wwO7yPE0LmZ869gCUXiJZG6VZY1V2XUo/view",
+    "topics": "node.js, mongoose, express, moment"
+  },
+  {
+    "id": 6,
+    "name": "Note-Taker",
+    "desc": "A simple app for taking, storing, and deleting important messages and reminders.",
+    "image": "https://user-images.githubusercontent.com/102879070/180331340-23109e1e-3bb2-4e4f-9792-263747b35fe0.png",
+    "github": "https://github.com/Jevenden/Note-Taker",
+    "deploy": "https://jevenden-note-taker.herokuapp.com/",
+    "topics": "node.js, express.js, uuid"
+  },
+  {
+    "id": 7,
+    "name": "Team-Profile-Generator",
+    "desc": "Gather information about your employees, then generate an HTML file with clickable email and github links.",
+    "image": "https://user-images.githubusercontent.com/102879070/179382807-24a41c94-19c9-41d6-9648-aeb49e881edc.png",
+    "github": "https://github.com/Jevenden/Team-Profile-Generator",
+    "deploy": "",
+    "topics": "node.js, inquirer, jest, babel"
+  },
+  {
+    "id": 8,
+    "name": "Day-Planner",
+    "desc": "Plan, save, and organize your days events by the hour, with time-accurate, color coded organizational tooling.",
+    "image": "https://user-images.githubusercontent.com/102879070/171437656-52fbb99f-57fd-4f96-9203-d41b5b60df30.jpg",
+    "github": "https://github.com/Jevenden/Day-Planner-Challenge",
+    "deploy": "https://jevenden.github.io/Day-Planner-Challenge/",
+    "topics": "Javascript, CSS, HTML, Moment"
+  }
+]

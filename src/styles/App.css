@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+  }
+
+.icon:hover {
+    transform: scale(1.2); 
+  }
+
+h1 {
+    padding-top: 1%;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}

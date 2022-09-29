@@ -1,0 +1,30 @@
+.error-message {
+    color: red;
+    font-weight: bold;
+}
+
+form {
+    width: 40%;
+  }
+
+.contact-form {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.contact-pic-div {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+label {
+    color: white;
+}
+
+.btn {
+    color: white;
+}
+
+form-control {
+    box-shadow: 0 4px 8px 0 black;
+}
