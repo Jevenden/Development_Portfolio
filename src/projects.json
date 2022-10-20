@@ -19,12 +19,11 @@
   },
   {
     "id": 3,
-    "name": "Employee-Tracker",
-    "desc": "Use a command-line interface to organize, record, and modify a company's employee database.",
-    "image": "https://user-images.githubusercontent.com/102879070/182046925-3b48f788-ada7-46e0-9544-45fee52f1cf7.png",
-    "github": "https://github.com/Jevenden/Employee-Tracker",
-    "deploy": "https://drive.google.com/file/d/1YaQgC_5IE2Faj-dMK_q71j6CmsFe_pTc/view",
-    "topics": "node.js, inquirer, console.table, mysql2"
+    "name": "View From Here",
+    "image": "https://user-images.githubusercontent.com/102879070/192926261-d8115737-dd42-4631-a092-7bcc3b43cc19.png",
+    "github": "https://github.com/MMMPhoto/View-From-Here",
+    "deploy": "https://viewfromhere.herokuapp.com/",
+    "topics": "Mongo, Express, React, Node"
   },
   {
     "id": 4,
