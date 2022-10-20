@@ -33,41 +33,5 @@
     "github": "https://github.com/Jevenden/Weather-Tracker-Challenge",
     "deploy": "https://jevenden.github.io/Weather-Tracker-Challenge/",
     "topics": "REST API, Javascript, CSS, HTML"
-  },
-  {
-    "id": 5,
-    "name": "Social Network API",
-    "desc": "A social media back-end which allows users to create a profile, add friends, make comments, and reply.",
-    "image": "https://user-images.githubusercontent.com/102879070/190270220-8d811dca-b77e-48e1-8c19-5b219bed035d.png",
-    "github": "https://github.com/Jevenden/Social-Network-API",
-    "deploy": "https://drive.google.com/file/d/1wwO7yPE0LmZ869gCUXiJZG6VZY1V2XUo/view",
-    "topics": "node.js, mongoose, express, moment"
-  },
-  {
-    "id": 6,
-    "name": "Note-Taker",
-    "desc": "A simple app for taking, storing, and deleting important messages and reminders.",
-    "image": "https://user-images.githubusercontent.com/102879070/180331340-23109e1e-3bb2-4e4f-9792-263747b35fe0.png",
-    "github": "https://github.com/Jevenden/Note-Taker",
-    "deploy": "https://jevenden-note-taker.herokuapp.com/",
-    "topics": "node.js, express.js, uuid"
-  },
-  {
-    "id": 7,
-    "name": "Team-Profile-Generator",
-    "desc": "Gather information about your employees, then generate an HTML file with clickable email and github links.",
-    "image": "https://user-images.githubusercontent.com/102879070/179382807-24a41c94-19c9-41d6-9648-aeb49e881edc.png",
-    "github": "https://github.com/Jevenden/Team-Profile-Generator",
-    "deploy": "",
-    "topics": "node.js, inquirer, jest, babel"
-  },
-  {
-    "id": 8,
-    "name": "Day-Planner",
-    "desc": "Plan, save, and organize your days events by the hour, with time-accurate, color coded organizational tooling.",
-    "image": "https://user-images.githubusercontent.com/102879070/171437656-52fbb99f-57fd-4f96-9203-d41b5b60df30.jpg",
-    "github": "https://github.com/Jevenden/Day-Planner-Challenge",
-    "deploy": "https://jevenden.github.io/Day-Planner-Challenge/",
-    "topics": "Javascript, CSS, HTML, Moment"
   }
 ]
