@@ -10,10 +10,10 @@ export default function Resume() {
           RESUME
         </h2>
         <a
-          href="https://github.com/Jevenden/portfolio/raw/master/docs/John%20Evenden%20Resume.pdf"
+          href="https://github.com/Jevenden/sandbox/raw/master/src/docs/John%20Evenden.pdf"
           className="link"
         >
-          Download
+          Download Resume
         </a>
         <ul>
           <li>Javascript, CSS, HTML</li>
@@ -24,7 +24,7 @@ export default function Resume() {
           <li>SQL</li>
           <li>GraphQL and RESFUL API</li>
           <li>MVC software architecture</li>
-          <li>OOP Programming</li>
+          <li>OOP</li>
           <li>Handlebars</li>
           <li>Apollo</li>
         </ul>
