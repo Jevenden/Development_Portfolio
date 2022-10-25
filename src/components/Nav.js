@@ -53,6 +53,3 @@ export default function Nav({ currentPage, handlePageChange }) {
     </div>
   );
 }
-
-// Bigger buttons
-// Name indented left
