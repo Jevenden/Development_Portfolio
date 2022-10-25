@@ -1,12 +1,12 @@
 [
   {
     "id": 1,
-    "name": "Event-Finder",
-    "desc": "Search for an event by location, genre, and date, then get info about everything from tickets to the best route.",
-    "image": "https://user-images.githubusercontent.com/70594281/174419344-26644f83-8f0c-4395-9b49-65ef8950d945.png",
-    "github": "https://github.com/MMMPhoto/Event-Finder",
-    "deploy": "https://mmmphoto.github.io/Event-Finder/",
-    "topics": "HTML, Javascript, CSS, 3rd party API"
+    "name": "The View From Here",
+    "desc": "Upload landscape photos from your phone, which will drop GPS accurate pegs on a world map, allowing other users to see and save them to their profiles.",
+    "image": "https://github.com/MMMPhoto/View-From-Here/blob/main/Screenshot.png?raw=true",
+    "github": "https://github.com/MMMPhoto/View-From-Here",
+    "deploy": "https://viewfromhere.herokuapp.com/",
+    "topics": "Mongo, Express, React, Node"
   },
   {
     "id": 2,
@@ -19,11 +19,12 @@
   },
   {
     "id": 3,
-    "name": "View From Here",
-    "image": "https://github.com/MMMPhoto/View-From-Here/blob/main/Screenshot.png?raw=true",
-    "github": "https://github.com/MMMPhoto/View-From-Here",
-    "deploy": "https://viewfromhere.herokuapp.com/",
-    "topics": "Mongo, Express, React, Node"
+    "name": "Event-Finder",
+    "desc": "Search for an event by location, genre, and date, then get info about everything from tickets to the best route.",
+    "image": "https://user-images.githubusercontent.com/70594281/174419344-26644f83-8f0c-4395-9b49-65ef8950d945.png",
+    "github": "https://github.com/MMMPhoto/Event-Finder",
+    "deploy": "https://mmmphoto.github.io/Event-Finder/",
+    "topics": "HTML, Javascript, CSS, 3rd party API"
   },
   {
     "id": 4,
