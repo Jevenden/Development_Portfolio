@@ -8,6 +8,7 @@ import Resume from "./pages/Resume";
 import Header from "./Header";
 import Footer from "./Footer";
 import "animate.css";
+import "../styles/container.css";
 
 export default function Container() {
   const [currentPage, setCurrentPage] = useState("Home");
