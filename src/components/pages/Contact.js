@@ -1,8 +1,15 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import validateEmail from "../../helpers/contact-helpers";
 import "../../styles/contact.css";
+import emailjs from "@emailjs/browser";
 
 export default function ContactForm() {
+  const form = useRef();
+  const [formName, setName] = useState("");
+  const [formEmail, setEmail] = useState("");
+  const [formMessage, setMessage] = useState("");
+  const [warningMessage, setWarningMessage] = useState("");
+
   const [formState, setFormState] = useState({
     name: "",
     email: "",
@@ -44,16 +51,37 @@ export default function ContactForm() {
     }
   }
 
-  function handleSubmit(e) {
-    e.preventDefault();
-    handleChange();
-    setFormState({
-      name: "",
-      email: "",
-      message: "",
-    });
-    return;
-  }
+  // function handleSubmit(e) {
+  //   e.preventDefault();
+  //   handleChange();
+  //   setFormState({
+  //     name: "",
+  //     email: "",
+  //     message: "",
+  //   });
+  //   return;
+  // }
+
+  const sendEmail = (event) => {
+    event.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_5g0ynh5",
+        "template_n0ebm8f",
+        form.current,
+        "IIBjjcjGKvHQDurqZ"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          setWarningMessage("Email sent!");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
 
   return (
     <div className="container">
@@ -117,7 +145,7 @@ export default function ContactForm() {
               data-testid="button"
               className="btn btn-outline-light"
               type="submit"
-              onSubmit={handleSubmit}
+              onSubmit={sendEmail}
             >
               Submit
             </button>

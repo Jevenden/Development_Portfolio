@@ -2,6 +2,7 @@
     display: flex; 
     justify-content: center;
     border-top: solid 1px white;
+    padding-top: 5px;
   }
 
 .icon {
