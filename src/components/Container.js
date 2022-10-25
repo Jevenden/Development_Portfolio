@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import ContactForm from "./pages/Contact";
 import Resume from "./pages/Resume";
 import Header from "./Header";
+import Footer from "./Footer";
 import "animate.css";
 
 export default function Container() {
@@ -28,11 +29,12 @@ export default function Container() {
 
   return (
     <div>
-      <Header className="header">
+      <div>
+        <Header className="header" />
         <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
-        {renderPage()}
-      </Header>
-      <Home />
+      </div>
+      <main>{renderPage()}</main>
+      <Footer />
     </div>
   );
 }

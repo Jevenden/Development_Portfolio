@@ -5,7 +5,7 @@ import "animate.css";
 export default function Nav({ currentPage, handlePageChange }) {
   return (
     <div className="bg-dark">
-      <h1 className="text-light name">John Evenden</h1>
+      {/* <h1 className="text-light name">John Evenden</h1> */}
       <ul className="nav nav-tabs">
         <li className="nav-item">
           <a
