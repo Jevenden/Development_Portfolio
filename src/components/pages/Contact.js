@@ -9,17 +9,9 @@ export default function ContactForm() {
   const [from_email, setEmail] = useState("");
   const [from_message, setMessage] = useState("");
 
-  const [formState, setFormState] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
-
   const [emailErrorMessage, setEmailErrorMessage] = useState("");
   const [nameErrorMessage, setNameErrorMessage] = useState("");
   const [messageErrorMessage, setMessageErrorMessage] = useState("");
-
-  const { name, email, message } = formState;
 
   function handleChange(e) {
     if (e.target.name === "from_email") {
@@ -64,6 +56,9 @@ export default function ContactForm() {
         function (response) {
           console.log("SUCCESS!", response.status, response.text);
           setMessageErrorMessage("Email sent!");
+          setName("");
+          setEmail("");
+          setMessage("");
         },
         function (error) {
           console.log("FAILED...", error);
