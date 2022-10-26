@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-// import validateEmail from "../../helpers/contact-helpers";
+import validateEmail from "../../helpers/contact-helpers";
 import "../../styles/contact.css";
 import emailjs from "@emailjs/browser";
 
@@ -7,49 +7,48 @@ export default function ContactForm() {
   const form = useRef();
   const [from_name, setName] = useState("");
   const [from_email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
-  // const [warningMessage, setWarningMessage] = useState("");
+  const [from_message, setMessage] = useState("");
 
-  // const [formState, setFormState] = useState({
-  //   name: "",
-  //   email: "",
-  //   message: "",
-  // });
+  const [formState, setFormState] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
 
-  // const [emailErrorMessage, setEmailErrorMessage] = useState("");
-  // const [nameErrorMessage, setNameErrorMessage] = useState("");
-  // const [messageErrorMessage, setMessageErrorMessage] = useState("");
+  const [emailErrorMessage, setEmailErrorMessage] = useState("");
+  const [nameErrorMessage, setNameErrorMessage] = useState("");
+  const [messageErrorMessage, setMessageErrorMessage] = useState("");
 
-  // const { name, email, message } = formState;
+  const { name, email, message } = formState;
 
-  // function handleChange(e) {
-  //   if (e.target.name === "email") {
-  //     const isValid = validateEmail(e.target.value);
-  //     if (!isValid) {
-  //       setEmailErrorMessage("Please enter a valid email address.");
-  //     } else {
-  //       setEmailErrorMessage("");
-  //     }
-  //   } else {
-  //     if (e.target.name === "name") {
-  //       const isValid = e.target.value.length;
-  //       if (!isValid) {
-  //         setNameErrorMessage("Please enter your name.");
-  //       } else {
-  //         setNameErrorMessage("");
-  //       }
-  //     } else {
-  //       if (e.target.name === "message") {
-  //         const isValid = e.target.value.length;
-  //         if (!isValid) {
-  //           setMessageErrorMessage("Please enter your message.");
-  //         } else {
-  //           setMessageErrorMessage("");
-  //         }
-  //       }
-  //     }
-  //   }
-  // }
+  function handleChange(e) {
+    if (e.target.name === "from_email") {
+      const isValid = validateEmail(e.target.value);
+      if (!isValid) {
+        setEmailErrorMessage("Please enter a valid email address.");
+      } else {
+        setEmailErrorMessage("");
+      }
+    } else {
+      if (e.target.name === "from_name") {
+        const isValid = e.target.value.length;
+        if (!isValid) {
+          setNameErrorMessage("Please enter your name.");
+        } else {
+          setNameErrorMessage("");
+        }
+      } else {
+        if (e.target.name === "from_message") {
+          const isValid = e.target.value.length;
+          if (!isValid) {
+            setMessageErrorMessage("Please enter your message.");
+          } else {
+            setMessageErrorMessage("");
+          }
+        }
+      }
+    }
+  }
 
   const sendEmail = (event) => {
     event.preventDefault();
@@ -64,6 +63,7 @@ export default function ContactForm() {
       .then(
         function (response) {
           console.log("SUCCESS!", response.status, response.text);
+          setMessageErrorMessage("Email sent!");
         },
         function (error) {
           console.log("FAILED...", error);
@@ -99,51 +99,48 @@ export default function ContactForm() {
               className="form-control"
               type="text"
               name="from_name"
-              // defaultValue={name}
               value={from_name}
-              // onBlur={handleChange}
+              onBlur={handleChange}
               onChange={(e) => setName(e.target.value)}
             />
           </div>
-          {/* {nameErrorMessage && (
+          {nameErrorMessage && (
             <div>
               <p className="error-message">{nameErrorMessage}</p>
             </div>
-          )} */}
+          )}
           <div className="mt-3">
             <label>Email:</label>
             <input
               className="form-control"
               type="email"
               name="from_email"
-              // defaultValue={email}
               value={from_email}
-              // onBlur={handleChange}
+              onBlur={handleChange}
               onChange={(e) => setEmail(e.target.value)}
             />
           </div>
-          {/* {emailErrorMessage && (
+          {emailErrorMessage && (
             <div>
               <p className="error-message">{emailErrorMessage}</p>
             </div>
-          )} */}
+          )}
           <div className="mt-3">
             <label>Message:</label>
             <textarea
               className="form-control"
-              name="message"
-              // defaultValue={message}
-              value={message}
-              // onBlur={handleChange}
+              name="from_message"
+              value={from_message}
+              onBlur={handleChange}
               onChange={(e) => setMessage(e.target.value)}
               rows="5"
             />
           </div>
-          {/* {messageErrorMessage && (
+          {messageErrorMessage && (
             <div>
               <p className="error-message">{messageErrorMessage}</p>
             </div>
-          )} */}
+          )}
 
           <div className="mt-3 mb-5">
             <button
