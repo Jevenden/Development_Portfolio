@@ -4,7 +4,9 @@
 
 .selfie {
     border-radius: 50%;
-    height: 300px
+    height: 300px;
+    justify-content: center;
+    align-items: center;
 }
 
 .about {
