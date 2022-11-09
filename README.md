@@ -34,6 +34,6 @@ When the website loads, the user is first the "About Me" page, with a short biog
 
 Github Repo for this application: https://github.com/Jevenden/Development_Portfolio
 
-Deployment link: https://jevenden.github.io/sandbox/
+Deployment link: https://jevenden.github.io/Development_Portfolio/
 
 ![2022-09-28 (1)](https://user-images.githubusercontent.com/102879070/192926261-d8115737-dd42-4631-a092-7bcc3b43cc19.png)
