@@ -18,7 +18,7 @@ The Development Portfolio is a front-end website built using React JS. It is a s
 
 ## Installation
 
-To view the site, visit https://jevenden.github.io/sandbox/
+To view the site, visit https://jevenden.github.io/Development_Portfolio/
 
 ## Usage
 
