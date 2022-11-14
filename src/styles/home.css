@@ -1,12 +1,5 @@
 .title {
     color: white;
-}
-
-.selfie {
-    border-radius: 50%;
-    height: 300px;
-    justify-content: center;
-    align-items: center;
     display: flex;
 }
 
@@ -20,8 +13,32 @@
     color: white;
 }
 
+.selfie {
+    border-radius: 50%;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.aboutPicContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: left;
+    height: 100%;
+    width: 100%;
+}
+
 .info {
     -webkit-text-stroke: 0.1px white;
     display: flex;
     flex-direction: column;
 }
+
+@media screen and (max-width:766px) {
+    .home { flex-wrap: wrap;  }
+    .about { flex-direction: column; }
+    .title { justify-content: center; }
+    .aboutPicContainer { justify-content: center; }
+  }

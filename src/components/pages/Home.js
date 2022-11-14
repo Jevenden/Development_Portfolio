@@ -4,7 +4,7 @@ import pic from "../../docs/Edited.jpg";
 
 export default function Home() {
   return (
-    <div className="container">
+    <div className="container home">
       <div className="row about">
         <h2 className="animate__animated animate__bounceInRight title">
           &nbsp;&nbsp;&nbsp;&nbsp;ABOUT ME

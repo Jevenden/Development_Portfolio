@@ -1,4 +1,3 @@
-import React from "react";
 import projects from "../../projects.json";
 import ProjectCards from "../Project-Cards";
 import "animate.css";

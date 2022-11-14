@@ -3,7 +3,7 @@
     justify-content: space-around;
     height: 100%;
     display: flex;
-    overflow: auto;
+    overflow: hidden;
     flex-flow: row wrap;
     padding: 10px;
     align-content: flex-start;
