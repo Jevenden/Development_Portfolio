@@ -3,7 +3,7 @@ import "animate.css";
 
 export default function Nav({ currentPage, handlePageChange }) {
   return (
-    <div className="bg-dark">
+    <div>
       <ul className="nav nav-tabs">
         <li className="nav-item">
           <a

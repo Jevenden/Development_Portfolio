@@ -11,3 +11,8 @@ h1 {
     padding-bottom: 0%;
     margin-bottom: 0%;
 }
+
+.title {
+    color: white;
+    padding-top: 2%;
+}

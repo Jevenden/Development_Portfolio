@@ -2,7 +2,7 @@ import "../styles/header.css";
 
 export default function Header() {
   return (
-    <header className="header-title bg-dark">
+    <header className="header-title">
       <h1>John Evenden</h1>
     </header>
   );
