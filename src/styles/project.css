@@ -8,4 +8,5 @@
     padding: 10px;
     align-content: flex-start;
     margin-bottom: 5%;
+    overflow-y: hidden;
   }

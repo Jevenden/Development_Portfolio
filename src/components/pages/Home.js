@@ -1,4 +1,3 @@
-import React from "react";
 import "animate.css";
 import "../../styles/home.css";
 import pic from "../../docs/Edited.jpg";

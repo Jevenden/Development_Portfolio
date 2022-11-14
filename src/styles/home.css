@@ -7,15 +7,21 @@
     height: 300px;
     justify-content: center;
     align-items: center;
+    display: flex;
 }
 
 .about {
     display: flex;
-    flex-flow: row wrap;
-    margin-bottom: 5%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
     color: white;
 }
 
 .info {
-    -webkit-text-stroke: 0.1px white
+    -webkit-text-stroke: 0.1px white;
+    display: flex;
+    flex-direction: column;
 }
