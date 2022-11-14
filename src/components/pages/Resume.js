@@ -8,12 +8,14 @@ export default function Resume() {
         <h2 className="animate__animated animate__bounceInRight title">
           RESUME
         </h2>
-        <a
-          href="https://github.com/Jevenden/sandbox/raw/master/src/docs/John%20Evenden.pdf"
-          className="link"
-        >
-          Download Resume
-        </a>
+        <span>
+          <a
+            href="https://github.com/Jevenden/Development_Portfolio/raw/master/src/docs/Tech%20Resume.pdf"
+            className="link"
+          >
+            Download Resume
+          </a>
+        </span>
         <ul>
           <li>Javascript, CSS, HTML</li>
           <li>MongoDB</li>
