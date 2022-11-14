@@ -29,8 +29,8 @@ export default function Container() {
 
   return (
     <div>
-      <div>
-        <Header className="header" />
+      <div className="bg-dark">
+        <Header className="header"></Header>
         <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       </div>
       <main>{renderPage()}</main>
