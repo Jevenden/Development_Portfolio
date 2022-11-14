@@ -1,5 +1,4 @@
 import { useState } from "react";
-import React from "react";
 import Nav from "./Nav";
 import Projects from "./pages/Projects";
 import Home from "./pages/Home";
