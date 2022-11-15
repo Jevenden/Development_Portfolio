@@ -1,5 +1,5 @@
 import "animate.css";
-import "../../styles/resume.css";
+import "./resume.css";
 
 export default function Resume() {
   return (

@@ -1,7 +1,7 @@
-import projects from "../../projects.json";
-import ProjectCards from "../Project-Cards";
+import projects from "../../../projects.json";
+import ProjectCards from "../../cards/Project-Cards";
 import "animate.css";
-import "../../styles/project.css";
+import "./project.css";
 
 function ProjectsWrapper(props) {
   return <div className="ProjectsWrapper">{props.children}</div>;

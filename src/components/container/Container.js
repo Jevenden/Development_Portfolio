@@ -1,13 +1,13 @@
 import { useState } from "react";
-import Nav from "./Nav";
-import Projects from "./pages/Projects";
-import Home from "./pages/Home";
-import ContactForm from "./pages/Contact";
-import Resume from "./pages/Resume";
-import Header from "./Header";
-import Footer from "./Footer";
+import Nav from "../nav/Nav";
+import Projects from "../pages/projects/Projects";
+import Home from "../pages/home/Home";
+import ContactForm from "../pages/contact/Contact";
+import Resume from "../pages/resume/Resume";
+import Header from "../header/Header";
+import Footer from "../footer/Footer";
 import "animate.css";
-import "../styles/container.css";
+import "./container.css";
 
 export default function Container() {
   const [currentPage, setCurrentPage] = useState("Home");

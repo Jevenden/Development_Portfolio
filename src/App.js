@@ -1,4 +1,4 @@
-import Container from "./components/Container";
+import Container from "./components/container/Container.js";
 import "./styles/App.css";
 
 export default function App() {

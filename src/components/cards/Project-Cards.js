@@ -1,4 +1,4 @@
-import "../styles/card.css";
+import "./card.css";
 import "animate.css";
 
 export default function ProjectCards(props) {

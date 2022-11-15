@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
-import validateEmail from "../../helpers/contact-helpers";
-import "../../styles/contact.css";
+import validateEmail from "./contact-helpers";
+import "./contact.css";
 import emailjs from "@emailjs/browser";
 
 export default function ContactForm() {

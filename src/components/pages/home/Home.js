@@ -1,6 +1,6 @@
 import "animate.css";
-import "../../styles/home.css";
-import pic from "../../docs/Edited.jpg";
+import "./home.css";
+import pic from "../../../assets/Edited.jpg";
 
 export default function Home() {
   return (

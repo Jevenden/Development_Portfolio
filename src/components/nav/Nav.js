@@ -1,4 +1,4 @@
-import "../styles/nav.css";
+import "./nav.css";
 import "animate.css";
 
 export default function Nav({ currentPage, handlePageChange }) {
