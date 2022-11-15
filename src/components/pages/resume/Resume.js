@@ -10,7 +10,7 @@ export default function Resume() {
         </h2>
         <span>
           <a
-            href="https://github.com/Jevenden/Development_Portfolio/raw/master/src/docs/Tech%20Resume.pdf"
+            href="https://github.com/Jevenden/Development_Portfolio/raw/master/src/assets/Tech%20Resume.pdf"
             className="link"
           >
             Download Resume
