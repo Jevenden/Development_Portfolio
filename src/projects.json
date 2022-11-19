@@ -28,6 +28,24 @@
   },
   {
     "id": 4,
+    "name": "Styled-Components Homepage",
+    "desc": "A sample front-end landing page created using no CSS at all; only styled components.",
+    "image": "https://user-images.githubusercontent.com/102879070/202866597-94efa449-97d2-4e3f-aed8-4c83ea36bfd9.png",
+    "github": "https://github.com/Jevenden/styled-react-website",
+    "deploy": "https://jevenden.github.io/styled-react-website/",
+    "topics": "React, Stlyed Components, Node"
+  },
+  {
+    "id": 5,
+    "name": "E-Commerce-Back-End",
+    "desc": "A series of linked mysql databases simulating an e-commerce company's back-end. Manages product categories, types, and tags.",
+    "image": "https://user-images.githubusercontent.com/102879070/183222568-66daa319-b4ec-496a-ad88-ae07c4c48a88.png",
+    "github": "https://github.com/Jevenden/E-Commerce-Back-End",
+    "deploy": "https://drive.google.com/file/d/1TSjUb5cUe_VC43QX8oAAg6qf__QcFqCY/view",
+    "topics": "Mysql2, Sequelize, Express, Dotenv, Node"
+  },
+  {
+    "id": 6,
     "name": "Weather-Tracker",
     "desc": "Search, save, and recall weather information by location, including temp, wind, humidity, and UV index.",
     "image": "https://user-images.githubusercontent.com/102879070/173206795-1756b534-81cb-41fe-a26f-bf9e9cd7594d.jpg",
